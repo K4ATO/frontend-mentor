@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/images/favicon-32x32.png"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link href="style.css" rel="stylesheet" />
+        <title>Frontend Mentor | Results summary component</title>
+    </head>
+    <body>
+        <main class="result-summary-component">
+            <section class="result-section card">
+                <h1 class="result-header space--l">Your Result</h1>
+                <div class="result-grade space--m">
+                    <p class="grade">76</p>
+                    <p class="percentage">of 100</p>
+                </div>
+                <h2 class="result-title space--s">Great</h2>
+                <p class="result-description">
+                    You scored higher than 65% of the people who have taken
+                    these tests.
+                </p>
+            </section>
+
+            <section class="summary-section card">
+                <h1 class="summary-header space--m">Summary</h1>
+                <ul class="summary-list space--l">
+                    <li class="list-item red">
+                        <div class="item-details">
+                            <img
+                                class="item-icon"
+                                src="./assets/images/icon-reaction.svg"
+                                alt="reaction icon"
+                            />
+                            <span class="item-text"> Reaction</span>
+                        </div>
+                        <p class="item-grade"><strong> 80 </strong> / 100</p>
+                    </li>
+                    <li class="list-item yellow">
+                        <div class="item-details">
+                            <img
+                                class="item-icon"
+                                src="./assets/images/icon-memory.svg"
+                                alt="Memory icon"
+                            />
+                            <span class="item-text"> Memory</span>
+                        </div>
+                        <p class="item-grade"><strong> 92 </strong> / 100</p>
+                    </li>
+                    <li class="list-item green">
+                        <div class="item-details">
+                            <img
+                                class="item-icon"
+                                src="./assets/images/icon-verbal.svg"
+                                alt="Verbal icon"
+                            />
+                            <span class="item-text"> Verbal</span>
+                        </div>
+                        <p class="item-grade"><strong> 61 </strong> / 100</p>
+                    </li>
+                    <li class="list-item blue">
+                        <div class="item-details">
+                            <img
+                                class="item-icon"
+                                src="./assets/images/icon-visual.svg"
+                                alt="Visual icon"
+                            />
+                            <span class="item-text"> Visual</span>
+                        </div>
+                        <p class="item-grade"><strong> 72 </strong> / 100</p>
+                    </li>
+                </ul>
+                <button class="summary-btn">Continue</button>
+            </section>
+        </main>
+    </body>
+</html>
