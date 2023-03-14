@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
+-   Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/desktopfirst-solution-using-semantic-html-css-and-simple-flexbox-DuGV1E56oq)
 -   Live Site URL: [Add live site URL here](https://results-summary-component-main-k4ato.netlify.app/)
 
 ## My process
