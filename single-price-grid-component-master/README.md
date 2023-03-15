@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [](https://www.frontendmentor.io/solutions/desktopfirst-solution-using-semantic-html-cssand-simple-grid-rvDyJcqDGo)
--   Live Site URL: [](https://single-price-grid-component-k4ato.netlify.app/)
+-   Solution URL: [solution](https://www.frontendmentor.io/solutions/desktopfirst-solution-using-semantic-html-cssand-simple-grid-rvDyJcqDGo)
+-   Live Site URL: [live](https://single-price-grid-component-k4ato.netlify.app/)
 
 ## My process
 

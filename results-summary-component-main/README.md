@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [](https://www.frontendmentor.io/solutions/desktopfirst-solution-using-semantic-html-css-and-simple-flexbox-DuGV1E56oq)
--   Live Site URL: [](https://results-summary-component-main-k4ato.netlify.app/)
+-   Solution URL: [solution](https://www.frontendmentor.io/solutions/desktopfirst-solution-using-semantic-html-css-and-simple-flexbox-DuGV1E56oq)
+-   Live Site URL: [live](https://results-summary-component-main-k4ato.netlify.app/)
 
 ## My process
 

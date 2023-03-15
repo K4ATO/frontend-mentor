@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [](https://www.frontendmentor.io/solutions/simple-qr-code-card-solution-with-html-and-css-Qq4WH8mqmw)
--   Live Site URL: [](https://qr-code-component-main-k4ato.netlify.app/)
+-   Solution URL: [solution](https://www.frontendmentor.io/solutions/simple-qr-code-card-solution-with-html-and-css-Qq4WH8mqmw)
+-   Live Site URL: [live](https://qr-code-component-main-k4ato.netlify.app/)
 
 ## My process
 
