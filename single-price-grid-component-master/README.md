@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/desktopfirst-solution-using-semantic-html-cssand-simple-grid-rvDyJcqDGo)
--   Live Site URL: [Add live site URL here](https://single-price-grid-component-k4ato.netlify.app/)
+-   Solution URL: [](https://www.frontendmentor.io/solutions/desktopfirst-solution-using-semantic-html-cssand-simple-grid-rvDyJcqDGo)
+-   Live Site URL: [](https://single-price-grid-component-k4ato.netlify.app/)
 
 ## My process
 
@@ -41,7 +41,7 @@ Users should be able to:
 
 ### What I learned
 
-Using semantic HTML5 markup and designing the component with simple css grid techniques.
+Using semantic HTML5 markup and styling the component with simple css grid techniques.
 
 ## Author
 
