@@ -93,7 +93,7 @@ body {
         grid-template-rows: repeat(4, 120px);
     }
     .feature-section__description {
-        padding: 0 29em 5em 29em;
+        padding: 0 17em 5em 17em;
     }
     .card--primary {
         grid-row: 2/4;
