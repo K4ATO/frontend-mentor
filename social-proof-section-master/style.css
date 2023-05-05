@@ -1,0 +1,156 @@
+:root {
+    --primary-clr: hsl(300, 43%, 22%);
+    --secondary-clr: hsl(333, 80%, 67%);
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+    --ff: 'League Spartan', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: var(--ff);
+}
+body {
+    background-image: url('./images/bg-pattern-top-desktop.svg');
+    background-repeat: no-repeat;
+    width: 90%;
+    max-width: 70rem;
+    margin: 11em auto;
+}
+.social-proof {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+.social-proof__details {
+    display: flex;
+    gap: 6em;
+}
+.details__description {
+    flex-basis: 25rem;
+}
+.description__title {
+    color: var(--primary-clr);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+.description__paragraph {
+    color: var(--primary-clr);
+    margin-top: 1.4em;
+    line-height: 1.4;
+}
+
+.details__ratings {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 1em;
+    flex-basis: 37rem;
+}
+
+.rating {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 2;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--light-grayish-magenta);
+    width: 29rem;
+    height: 3.6rem;
+    border-radius: 7px;
+}
+.rating--middle {
+    align-self: center;
+}
+.rating--end {
+    align-self: flex-end;
+}
+
+.rating__text {
+    color: var(--primary-clr);
+    font-weight: 700;
+}
+
+.social-proof__testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+    height: 16rem;
+}
+.testimonial {
+    background-color: var(--primary-clr);
+    color: var(--white);
+    border-radius: 7px;
+    padding: 2em 1.6em;
+    width: 21.5rem;
+    height: 13.4rem;
+}
+.testimonial--middle {
+    align-self: center;
+}
+.testimonial--end {
+    align-self: flex-end;
+}
+.testimonial__header {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+.testimonial__img {
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+}
+.testimonial__buyer-name {
+    font-weight: 500;
+}
+.testimonial__buyer-status {
+    color: var(--secondary-clr);
+}
+.testimonial__text {
+    line-height: 1.2;
+    margin-top: 1.6em;
+}
+
+@media (max-width: 58.375em) {
+    body {
+        background-image: url('./images/bg-pattern-top-mobile.svg');
+        margin: 5em auto;
+    }
+    .social-proof {
+        gap: 3em;
+    }
+    .social-proof__details {
+        flex-direction: column;
+        gap: 3em;
+    }
+    .details__description {
+        flex-basis: 1rem;
+        text-align: center;
+    }
+    .details__ratings {
+        flex-basis: 1rem;
+    }
+    .rating {
+        flex-direction: column;
+        width: 20rem;
+    }
+    .social-proof__testimonials {
+        justify-content: center;
+    }
+}
