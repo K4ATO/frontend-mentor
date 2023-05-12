@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 100%;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(30, 38%, 92%);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.product {
+    width: 90%;
+    max-width: 44.6rem;
+    height: 33.3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(356px, 1fr));
+    border-radius: 10px;
+    overflow: hidden;
+}
+.product__img {
+    background-image: url('./images/image-product-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+.product__details {
+    background-color: white;
+    padding: 2em;
+}
+.product__type {
+    color: hsl(228, 12%, 48%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1.4em;
+}
+.product__name {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1;
+    margin-bottom: 0.6em;
+}
+.product__description {
+    color: hsl(228, 12%, 48%);
+    line-height: 1.4;
+    font-size: 1.05rem;
+    margin-bottom: 2em;
+}
+.prices {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 2.5em;
+}
+.product__price {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: hsl(158, 36%, 37%);
+}
+.product__actual-price {
+    color: hsl(228, 12%, 48%);
+    text-decoration-line: line-through;
+}
+.btn {
+    display: flex;
+    font-family: inherit;
+    gap: 1em;
+    font-weight: 700;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border-style: none;
+    font-size: 14px;
+    padding: 1.4em 6.4em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: hsl(158, 36%, 20%);
+}
+.icon {
+    align-self: center;
+    justify-self: center;
+}
+@media (max-width: 49.5rem) {
+    html {
+        font-size: 89%;
+    }
+    .product {
+        height: 90vh;
+        grid-template-columns: minmax();
+        grid-template-rows: 35vh min-content;
+    }
+    .product__img {
+        background-image: url('./images/image-product-mobile.jpg');
+        background-size: cover;
+    }
+    .btn {
+        padding: 1.4em 7em;
+    }
+}
