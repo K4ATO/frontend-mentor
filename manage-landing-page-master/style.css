@@ -422,7 +422,7 @@ p[data-text-color='opacity'] {
 
 .header-nav-list a:hover,
 .header-nav-list a:focus {
-    color: var(--clr-neutral-700);
+    color: var(--clr-accent-400);
 }
 
 .primary-header-mobile-navigation-toggler {
